@@ -1,7 +1,3 @@
-export const addComment = (author, content) => ({
-  type: "ADD_COMMENT",
-  comment: {
-    author,
-    content
-  }
+export const incrementCount = () => ({
+  type: "INCREMENT_COUNT"
 });
