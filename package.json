@@ -1,7 +1,7 @@
 {
   "name": "create-reactdux-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -15,5 +15,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": ">=4.2.4"
   }
 }
