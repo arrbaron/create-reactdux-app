@@ -1,3 +1,3 @@
 export const incrementCount = () => ({
-  type: "INCREMENT_COUNT"
+  type: 'INCREMENT_COUNT'
 });
